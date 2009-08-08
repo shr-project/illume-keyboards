@@ -1,0 +1,115 @@
+##KBDCONF-1.0
+kbd 130 45
+fuzz 20
+
+# keyboard type
+type ALPHA
+# an icon for the keyboard so you know which one you have
+icon alpha.png
+
+# if the key out is in quotes - "q" for example, then this key is used for
+# typing words and can be part of a dictionary match, any other key when
+# pressed will end the dictionary match (u can disable dictionary matching in
+# a layout by not having any outputs in quotes)
+key  2  5  10  10
+  normal   q "q"
+  shift    Q "Q"
+key 12  5  10  10
+  normal   w "w"
+  shift    W "W"
+key 22  5  10  10
+  normal   e "e"
+  shift    E "E"
+key 32  5  10  10
+  normal   r "r"
+  shift    R "R"
+key 42  5  10  10
+  normal   t "t"
+  shift    T "T"
+key 52  5  10  10
+  normal   z "z"
+  shift    Z "Z"
+key 62  5  10  10
+  normal   u "u"
+  shift    U "U"
+key 72  5  10  10
+  normal   i "i"
+  shift    I "I"
+key 82  5  10  10
+  normal   o "o"
+  shift    O "O"
+key 92  5  10  10
+  normal   p "p"
+  shift    P "P"
+key 102  5  10  10
+  normal   ü "ü"
+  shift    Ü "Ü"
+
+key 6 15  10  10
+  normal   a "a"
+  shift    A "A"
+key 16 15  10  10
+  normal   s "s"
+  shift    S "S"
+key 26 15  10  10
+  normal   d "d"
+  shift    D "D"
+key 36 15  10  10
+  normal   f "f"
+  shift    F "F"
+key 46 15  10  10
+  normal   g "g"
+  shift    G "G"
+key 56 15  10  10
+  normal   h "h"
+  shift    H "H"
+key 66 15  10  10
+  normal   j "j"
+  shift    J "J"
+key 76 15  10  10
+  normal   k "k"
+  shift    K "K"
+key 86 15  10  10
+  normal   l "l"
+  shift    L "L"
+key 96 15 10  10
+  normal   ö "ö"
+  shift    Ö "Ö"
+key 106 15 10  10
+  normal   ä "ä"
+  shift    Ä "Ä"
+
+key 10 25  10  10
+  normal   y "y"
+  shift    Y "Y"
+key 20 25  10  10
+  normal   x "x"
+  shift    X "X"
+key 30 25  10  10
+  normal   c "c"
+  shift    C "C"
+key 40 25  10  10
+  normal   v "v"
+  shift    V "V"
+key 50 25  10  10
+  normal   b "b"
+  shift    B "B"
+key 60 25  10  10
+  normal   n "n"
+  shift    N "N"
+key 70 25  10  10
+  normal   m "m"
+  shift    M "M"
+key 107 25 10  10
+  normal   shift.png
+  is_shift
+
+key 117 5  10  10
+  normal   . period
+  shift    , comma
+key 117 15 10  10
+  normal   ? question
+  shift    ! exclam
+key 117 25 10  10
+  normal   ' "'"
+  shift    / slash
