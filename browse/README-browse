@@ -1,0 +1,12 @@
+This documentation is regarding the finger friendly browse virtual keyboard for
+Illume which is packaged in illume-keyboard-browse.
+
+The file browse.png has been created manually with Inkscape and GIMP according
+to http://wiki.openmoko.org/wiki/Illume#List_of_illume_keyboards
+
+TODO:
+- incorporated this package into enlightement svn and build process and have
+  this reflected in the CONTROL/control file and offload the extra icons like
+  page up etcetera to the illume package
+- set fuzzy in .kbd file?
+- keyboard type is set to NONE, is this the best choice?

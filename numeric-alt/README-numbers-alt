@@ -1,0 +1,25 @@
+This documentation is regarding the numeric alternative virtual keyboard for
+Illume which is packaged in illume-keyboard-numeric-alt.
+
+When this package is installed, the file Numeric.kbd will be temporarily hidden
+as _Numeric.kbd_. Deinstalling this package will restore Numeric.kbd.
+
+The file Numeric-alt.kdb has been created out of Terminal.kbd and Numeric.kbd
+with the following changes:
+- larger and more finger friendly keys
+- more navigation keys
+- removed keys with currency symbols and characters with diacritics that don't
+  belong in numeric keyboard
+- shift mode and caps lock mode which are not needed and took up space have been
+  removed
+- faster in usage because shift and caps lock are not there and all keys are
+  directly available
+
+The file numeric-alt.png has been created manually with Inkscape and GIMP
+according to http://wiki.openmoko.org/wiki/Illume#List_of_illume_keyboards
+
+TODO:
+- incorporated this package into enlightement svn and build process and have
+  this reflected in the CONTROL/control file and offload the extra icons like
+  page up etcetera to the illume package
+- set fuzzy in .kbd file?

@@ -1,0 +1,125 @@
+##KBDCONF-1.0
+kbd 130 45
+
+# keyboard type
+type ALPHA
+# an icon for the keyboard so you know which one you have
+icon Arabic.png
+
+# if the key out is in quotes - q for example, then this key is used for
+# typing words and can be part of a dictionary match, any other key when
+# pressed will end the dictionary match (u can disable dictionary matching in
+# a layout by not having any outputs in quotes)
+key  5  5  10  10
+  normal   ض Arabic_dad
+  shift    َ َ
+key 15  5  10  10
+  normal   ص Arabic_sad
+  shift    ً ُ
+key 25  5  10  10
+  normal   ث Arabic_theh
+  shift    ُ ٌ
+key 35  5  10  10
+  normal   ق Arabic_qaf
+  shift    ٌ ٌ
+key 45  5  10  10
+  normal   ف Arabic_feh
+  shift    لإ لإ
+key 55  5  10  10
+  normal   غ Arabic_ghain
+  shift    إ إ
+key 65  5  10  10
+  normal   ع Arabic_ain
+  shift    ` `
+key 75  5  10  10
+  normal   ه Arabic_ha
+  shift    ÷ ÷
+key 85  5  10  10
+  normal   خ Arabic_khah
+  shift    × ×
+key 95  5  10  10
+  normal   ح Arabic_hah
+  shift    ؛ ؛
+key 105  5  10  10
+  normal   ج Arabic_jeem
+  shift    < <
+key 115  5  10  10
+  normal   د Arabic_dal
+  shift    > >
+
+key 5 15  10  10
+  normal   ش Arabic_sheen
+  shift    ِ ِ
+key 15 15  10  10
+  normal   س Arabic_seen
+  shift    ٍ ٍ
+key 25 15  10  10
+  normal   ي Arabic_yeh
+  shift    ] ]
+key 35 15  10  10
+  normal   ب Arabic_beh
+  shift    [ [
+key 45 15  10  10
+  normal   ل Arabic_lam
+  shift    لأ لأ 
+key 55 15  10  10
+  normal   ا Arabic_alef
+  shift    أ أ
+key 65 15  10  10
+  normal   ت Arabic_teh
+  shift    ـ ـ
+key 75 15  10  10
+  normal   ن Arabic_noon
+  shift    ، ،
+key 85 15  10  10
+  normal   م Arabic_meem
+  shift    / /
+key 95 15  10  10
+  normal   ك Arabic_kaf
+  shift    : :
+key 105 15  10  10
+  normal   ط Arabic_tah
+  shift    " "
+
+key 5 25 10  10
+  normal   shift.png
+  is_shift
+key 15 25  10  10
+  normal   ئ Arabic_hamzaonyeh
+  shift    ~ ~
+key 25 25  10  10
+  normal   ء Arabic_hamza
+  shift    ْ ْ
+key 35 25  10  10
+  normal   ؤ Arabic_hamzaonwaw
+  shift    } }
+key 45 25  10  10
+  normal   ر Arabic_ra
+  shift    { {
+key 55 25  10  10
+  normal   ذ Arabic_thal
+  shift    ّ ّ
+key 65 25  10  10
+  normal   ى Arabic_alefmaksura
+  shift    آ آ
+key 75 25  10  10
+  normal   ة Arabic_tehmarbuta
+  shift    ' '
+key 85 25  10  10
+  normal   و Arabic_waw
+  shift    , ,
+key 95 25  10  10
+  normal   ز Arabic_zain
+  shift    . .
+key 105 25  10  10
+  normal   ظ Arabic_zah
+  shift    ؟ ؟
+key 115 25  10  10
+  normal   enter.png Return
+
+key 45 35  40  10
+  normal   فراغ space
+  
+key 115 15 10  10
+  normal   backspace.png BackSpace
+  

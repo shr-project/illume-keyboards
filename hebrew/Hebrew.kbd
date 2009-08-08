@@ -1,0 +1,114 @@
+##KBDCONF-1.0
+kbd 130 45
+
+# keyboard type
+type ALPHA
+# an icon for the keyboard so you know which one you have
+icon Alpha-hebrew-il.png
+
+# the natural flow is rtl
+direction rtl
+
+# if the key out is in quotes - q for example, then this key is used for
+# typing words and can be part of a dictionary match, any other key when
+# pressed will end the dictionary match (u can disable dictionary matching in
+# a layout by not having any outputs in quotes)
+key  5  5  10  10
+  normal   . period
+  shift    Q Q
+key 15  5  10  10
+  normal   , comma
+  shift    W W
+key 25  5  10  10
+  normal   ק hebrew_kuf
+  shift    E E
+key 35  5  10  10
+  normal   ר hebrew_resh
+  shift    R R
+key 45  5  10  10
+  normal   א hebrew_aleph
+  shift    T T
+key 55  5  10  10
+  normal   ט hebrew_tet
+  shift    Y Y
+key 65  5  10  10
+  normal   ו hebrew_waw
+  shift    U U
+key 75  5  10  10
+  normal   ן hebrew_finalnun
+  shift    I I
+key 85  5  10  10
+  normal   ם hebrew_finalmem
+  shift    O O
+key 95  5  10  10
+  normal   פ hebrew_pe
+  shift    P P
+
+key 10 15  10  10
+  normal   ש hebrew_shin
+  shift    A A
+key 20 15  10  10
+  normal   ד hebrew_dalet
+  shift    S S
+key 30 15  10  10
+  normal   ג hebrew_gimel
+  shift    D D
+key 40 15  10  10
+  normal   כ hebrew_kaph
+  shift    F F
+key 50 15  10  10
+  normal   ע hebrew_ayin
+  shift    G G
+key 60 15  10  10
+  normal   י hebrew_yod
+  shift    H H
+key 70 15  10  10
+  normal   ח hebrew_chet
+  shift    J J
+key 80 15  10  10
+  normal   ל hebrew_lamed
+  shift    K K
+key 90 15  10  10
+  normal   ך hebrew_finalkaph
+  shift    L L
+key 100 15  10  10
+  normal   ף hebrew_finalpe
+  shift    L L
+
+key 5 25 10  10
+  normal   shift.png
+  is_shift
+key 15 25  10  10
+  normal   ז hebrew_zain
+  shift    Z Z
+key 25 25  10  10
+  normal   ס hebrew_samech
+  shift    X X
+key 35 25  10  10
+  normal   ב hebrew_bet
+  shift    C C
+key 45 25  10  10
+  normal   ה hebrew_he
+  shift    V V
+key 55 25  10  10
+  normal   נ hebrew_nun
+  shift    B B
+key 65 25  10  10
+  normal   מ hebrew_mem
+  shift    N N
+key 75 25  10  10
+  normal   צ hebrew_zade
+  shift    M M
+key 85 25  10  10
+  normal   ת hebrew_taw
+  shift    M M
+key 95 25  10  10
+  normal   ץ hebrew_finalzade
+  shift    M M
+
+
+key 115 5 10  10
+  normal   ? question
+  shift    ! exclam
+key 110  20  15  15
+  normal   enter.png Return

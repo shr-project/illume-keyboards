@@ -1,0 +1,42 @@
+##KBDCONF-1.0
+kbd 450 150
+
+# keyboard type
+type NONE
+# an icon for the keyboard so you know which one you have
+icon browse.png
+
+key   0   0  75  50
+  normal   esc Escape
+key  75   0  75  50
+  normal   pageup-browse.png Prior
+key 150   0  75  50
+  normal   ctrl
+  is_ctrl
+key 225   0  75  50
+  normal   alt
+  is_alt
+key 300   0  75  50
+  normal   up.png Up
+key 375   0  75  50
+  normal   backspace.png BackSpace
+
+key   0  50  75  50
+  normal   home-browse.png Home
+key 150  50  75  50
+  normal   end-browse.png End
+key 225  50  75  50
+  normal   left.png Left
+key 375  50  75  50
+  normal   right.png Right
+
+key   0 100  75  50
+  normal   tab.png Tab
+key  75 100  75  50
+  normal   pagedown-browse.png Next
+key 150 100 150  50
+  normal   space.png space
+key 300 100  75  50
+  normal   down.png Down
+key 375 100  75  50
+  normal   enter.png Return

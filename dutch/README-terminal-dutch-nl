@@ -1,0 +1,40 @@
+This documentation is regarding the Dutch virtual terminal keyboard for Illume
+which is packaged in illume-keyboard-terminal-dutch-nl.
+
+When this package is installed, the file Terminal.kbd will be temporarily hidden
+as _Terminal.kbd_. Deinstalling this package will restore Terminal.kbd.
+
+The file Terminal-dutch-nl.kdb has been created out of Terminal.kbd with the
+following changes:
+- added icons for page up, page down, home, end and caps lock and a negative
+  version of caps lock
+- used these and existing icons in minimal dimensions to maximise the number of
+  available keys
+- mapped *all* possible characters used in the Dutch language according to
+ http://nl.wikipedia.org/wiki/Accenttekens_in_de_Nederlandse_spelling#Frequentie
+  with the most used in the normal view, less used in shift view and exotic ones
+  in caps lock view
+- no capitals with diacritics are offered, except for Aring, because these are
+  not used in the Dutch language
+- added euro symbol
+- added ssharp for better German support
+- added ij-digraph and IJ-digraph, see
+  http://en.wikipedia.org/wiki/Digraph_(orthography)#Double_letters
+  for now they result in 'i'+'j' and 'I'+'J'
+- moved backspace and enter key down to create more space
+- moved insert and delete to easy use of delete by moving it away from the edge
+- renamed 'ctrl' to 'ctr', this is also three characters like 'alt', which
+  aligns it better inside the key
+- key output in between " will be used in combination with dictionary, for Dutch
+  extra keys are "-" and "'" wich occur a lot inside words.
+
+The file qwerty-dutch-nl.png has been created out of qwerty.png with the
+following changes:
+- the Dutch flag with colours which were picked from
+  http://en.wikipedia.org/wiki/File:Flag_of_the_Netherlands.svg has been used as
+  background, see http://wiki.openmoko.org/wiki/Illume#List_of_illume_keyboards
+
+TODO:
+- incorporated this package into enlightement svn and build process and have
+  this reflected in the CONTROL/control file and offload the extra icons like
+  page up etcetera to the illume package

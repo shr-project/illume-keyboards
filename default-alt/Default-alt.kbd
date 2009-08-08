@@ -1,0 +1,100 @@
+##KBDCONF-1.0
+kbd 450 150
+
+# keyboard type
+type ALPHA
+# an icon for the keyboard so you know which one you have
+icon alpha.png
+
+key 10  3  42  43
+  normal   q "q"
+  shift    Q "Q"
+key 52  3  42  43
+  normal   w "w"
+  shift    W "W"
+key 94  3  42  43
+  normal   e "e"
+  shift    E "E"
+key 136  3  42  43
+  normal   r "r"
+  shift    R "R"
+key 178  3  42  43
+  normal   t "t"
+  shift    T "T"
+key 220  3  42  43
+  normal   y "y"
+  shift    Y "Y"
+key 262  3  42  43
+  normal   u "u"
+  shift    U "U"
+key 304  3  42  43
+  normal   i "i"
+  shift    I "I"
+key 346  3  42  43
+  normal   o "o"
+  shift    O "O"
+key 388  3  42  43
+  normal   p "p"
+  shift    P "P"
+
+key 10 48  42  43
+  normal   a "a"
+  shift    A "A"
+key 52 48  42  43
+  normal   s "s"
+  shift    S "S"
+key 94 48  42  43
+  normal   d "d"
+  shift    D "D"
+key 136 48  42  43
+  normal   f "f"
+  shift    F "F"
+key 178 48  42  43
+  normal   g "g"
+  shift    G "G"
+key 220 48  42  43
+  normal   h "h"
+  shift    H "H"
+key 262 48  42  43
+  normal   j "j"
+  shift    J "J"
+key 304 48  42  43
+  normal   k "k"
+  shift    K "K"
+key 346 48  42  43
+  normal   l "l"
+  shift    L "L"
+key 388 48  42  43
+  normal   ' "'"
+  shift    - "-"
+
+key 10 93   42  43
+  normal   shift.png
+  is_shift
+key 52 93  42  43
+  normal   z "z"
+  shift    Z "Z"
+key 94 93  42  43
+  normal   x "x"
+  shift    X "X"
+key 136 93  42  43
+  normal   c "c"
+  shift    C "C"
+key 178 93  42  43
+  normal   v "v"
+  shift    V "V"
+key 220 93  42  43
+  normal   b "b"
+  shift    B "B"
+key 262 93  42  43
+  normal   n "n"
+  shift    N "N"
+key 304 93  42  43
+  normal   m "m"
+  shift    M "M"
+key 346 93  42  43
+  normal   . period
+  shift    ? question
+key 388 93  42  43
+  normal   , comma
+  shift    ! exclam

@@ -1,0 +1,64 @@
+##KBDCONF-1.0
+kbd 450 150
+
+# keyboard type
+type NUMERIC
+# an icon for the keyboard so you know which one you have
+icon numeric-alt.png
+
+key   0   0  50  50
+  normal   : colon
+key  50   0  50  50
+  normal   . period
+key 100   0  50  50
+  normal   0 0
+key 150   0  50  50
+  normal   1 1
+key 200   0  50  50
+  normal   2 2
+key 250   0  50  50
+  normal   3 3
+key 300   0  50  50
+  normal   left.png Left
+key 350   0  50  50
+  normal   right.png Right
+key 400   0  50  50
+  normal   backspace.png BackSpace
+
+key   0  50  50  50
+  normal   ; semicolon
+key  50  50  50  50
+  normal   , comma
+key 100  50  50  50
+  normal   + plus
+key 150  50  50  50
+  normal   4 4
+key 200  50  50  50
+  normal   5 5
+key 250  50  50  50
+  normal   6 6
+key 300  50  50  50
+  normal   home.png Home
+key 350  50  50  50
+  normal   end.png End
+key 400  50  50  50
+  normal   del Delete
+
+key   0 100  50  50
+  normal   / slash
+key  50 100  50  50
+  normal   - minus
+key 100 100  50  50
+  normal   * asterisk
+key 150 100  50  50
+  normal   7 7
+key 200 100  50  50
+  normal   8 8
+key 250 100  50  50
+  normal   9 9
+key 300 100  50  50
+  normal   # numbersign
+key 350 100  50  50
+  normal   tab.png Tab
+key 400 100  50  50
+  normal   enter.png Return
