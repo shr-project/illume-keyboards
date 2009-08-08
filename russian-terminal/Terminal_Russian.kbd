@@ -1,0 +1,245 @@
+##KBDCONF-1.0
+kbd 450 150
+
+# keyboard type
+type TERMINAL
+# an icon for the keyboard so you know which one you have
+icon Terminal-russian-ru.png
+
+key   0   0  30  30
+  normal   ё Cyrillic_io
+  shift    Ё Cyrillic_IO
+  capslock Ё Cyrillic_IO
+key  30   0  30  30
+  normal   1 1
+  shift    ! exclam
+  capslock 1 1
+key  60   0  30  30
+  normal   2 2
+  shift    " quotedbl
+  capslock 2 2
+key  90   0  30  30
+  normal   3 3
+  shift    № numerosign
+  capslock 3 3
+key 120   0  30  30
+  normal   4 4
+  shift    ; semicolon
+  capslock 4 4
+key 150   0  30  30
+  normal   5 5
+  shift    % percent
+  capslock 5 5
+key 180   0  30  30
+  normal   6 6
+  shift    : colon
+  capslock 6 6
+key 210   0  30  30
+  normal   7 7
+  shift    ? question
+  capslock 7 7
+key 240   0  30  30
+  normal   8 8
+  shift    * asterisk
+  capslock 8 8
+key 270   0  30  30
+  normal   9 9
+  shift    ( parenleft
+  capslock 9 9
+key 300   0  30  30
+  normal   0 0
+  shift    ) parenright
+  capslock 0 0
+key 330   0  30  30
+  normal   - minus
+  shift    _ underscore
+  capslock - F11
+key 360   0  30  30
+  normal   = equal
+  shift    + plus
+  capslock = F12
+key 390   0  60  30
+  normal   backspace.png BackSpace
+
+key   0  30  45  30
+  normal   tab.png Tab
+  shift    tab.png ISO_Left_Tab
+key 45  30  30  30
+  normal   й Cyrillic_shorti
+  shift    Й Cyrillic_SHORTI
+  capslock Й Cyrillic_SHORTI
+key 75  30  30  30
+  normal   ц Cyrillic_tse
+  shift    Ц Cyrillic_TSE
+  capslock Ц Cyrillic_TSE
+key 105  30  30  30
+  normal   у Cyrillic_u
+  shift    У Cyrillic_U
+  capslock У Cyrillic_U
+key 135  30  30  30
+  normal   к Cyrillic_ka
+  shift    К Cyrillic_KA
+  capslock К Cyrillic_KA
+key 165  30  30  30
+  normal   е Cyrillic_ie
+  shift    Е Cyrillic_IE
+  capslock Е Cyrillic_IE
+key 195  30  30  30
+  normal   н Cyrillic_en
+  shift    Н Cyrillic_EN
+  capslock Н Cyrillic_EN
+key 225  30  30  30
+  normal   г Cyrillic_ghe
+  shift    Г Cyrillic_GHE
+  capslock Г Cyrillic_GHE
+key 255  30  30  30
+  normal   ш Cyrillic_sha
+  shift    Ш Cyrillic_SHA
+  capslock Ш Cyrillic_SHA
+key 285  30  30  30
+  normal   щ Cyrillic_shcha
+  shift    Щ Cyrillic_SHCHA
+  capslock Щ Cyrillic_SHCHA
+key 315  30  30  30
+  normal   з Cyrillic_ze
+  shift    З Cyrillic_ZE
+  capslock З Cyrillic_ZE
+key 345  30  30  30
+  normal   х Cyrillic_ha
+  shift    Х Cyrillic_HA
+  capslock Х Cyrillic_HA
+key 375  30  30  30
+  normal   ъ Cyrillic_hardsign
+  shift    Ъ Cyrillic_HARDSIGN
+  capslock Ъ Cyrillic_HARDSIGN
+key 405  30  45  30
+  normal   \ backslash
+  shift    / slash
+  capslock \ backslash
+
+key   0  60  60  30
+  normal   caps
+  capslock CAPS
+  is_capslock
+key  60  60  30  30
+  normal   ф Cyrillic_ef
+  shift    Ф Cyrillic_EF
+  capslock Ф Cyrillic_EF
+key  90  60  30  30
+  normal   ы Cyrillic_yeru
+  shift    Ы Cyrillic_YERU
+  capslock Ы Cyrillic_YERU
+key 120  60  30  30
+  normal   в Cyrillic_ve
+  shift    В Cyrillic_VE
+  capslock В Cyrillic_VE
+key 150  60  30  30
+  normal   а Cyrillic_a
+  shift    А Cyrillic_A
+  capslock А Cyrillic_A
+key 180  60  30  30
+  normal   п Cyrillic_pe
+  shift    П Cyrillic_PE
+  capslock П Cyrillic_PE
+key 210  60  30  30
+  normal   р Cyrillic_er
+  shift    Р Cyrillic_ER
+  capslock Р Cyrillic_ER
+key 240  60  30  30
+  normal   о Cyrillic_o
+  shift    О Cyrillic_O
+  capslock О Cyrillic_O
+key 270  60  30  30
+  normal   л Cyrillic_el
+  shift    Л Cyrillic_EL
+  capslock Л Cyrillic_EL
+key 300  60  30  30
+  normal   д Cyrillic_de
+  shift    Д Cyrillic_DE
+  capslock Д Cyrillic_DE
+key 330  60  30  30
+  normal   ж Cyrillic_zhe
+  shift    Ж Cyrillic_ZHE
+  capslock Ж Cyrillic_ZHE
+key 360   60  30  30
+  normal   э Cyrillic_e
+  shift    Э Cyrillic_E
+  capslock Э Cyrillic_E
+key 390  60  60  30
+  normal   enter.png Return
+
+key   0  90  75  30
+  normal   shift.png
+  is_shift
+key  75  90  30  30
+  normal   я Cyrillic_ya
+  shift    Я Cyrillic_YA
+  capslock Я Cyrillic_YA
+key 105  90  30  30
+  normal   ч Cyrillic_che
+  shift    Ч Cyrillic_CHE
+  capslock Ч Cyrillic_CHE
+key 135  90  30  30
+  normal   с Cyrillic_es
+  shift    С Cyrillic_ES
+  capslock С Cyrillic_ES
+key 165  90  30  30
+  normal   м Cyrillic_em
+  shift    М Cyrillic_EM
+  capslock М Cyrillic_EM
+key 195  90  30  30
+  normal   и Cyrillic_i
+  shift    И Cyrillic_I
+  capslock И Cyrillic_I
+key 225  90  30  30
+  normal   т Cyrillic_te
+  shift    Т Cyrillic_TE
+  capslock Т Cyrillic_TE
+key 255  90  30  30
+  normal   ь Cyrillic_softsign
+  shift    Ь Cyrillic_SOFTSIGN
+  capslock Ь Cyrillic_SOFTSIGN
+key 285  90  30  30
+  normal   б Cyrillic_be
+  shift    Б Cyrillic_BE
+  capslock Б Cyrillic_BE
+key 315  90  30  30
+  normal   ю Cyrillic_yu
+  shift    Ю Cyrillic_YU
+  capslock Ю Cyrillic_YU
+key 345  90  30  30
+  normal   . period
+  shift    , comma
+  capslock . period
+key 375  90  30  30
+  normal   ins Insert
+key 405  90  35  30
+  normal   del Delete
+
+key   0 120  30  30
+  normal   ctrl
+  is_ctrl
+key  30 120  30  30
+  normal   alt
+  is_alt
+key  60 120 120  30
+  normal   space space
+key 180 120  30  30
+  normal   left.png Left
+key 210 120  30  30
+  normal   right.png Right
+key 240 120  30  30
+  normal   up.png Up
+key 270 120  30  30
+  normal   down.png Down
+key 300 120  30  30
+  normal   pu Prior
+key 330 120  30  30
+  normal   pd Next
+key 360 120  30  30
+  normal   hm Home
+key 390 120  30  30
+  normal   en End
+key 420 120  30  30
+  normal   es Escape
+

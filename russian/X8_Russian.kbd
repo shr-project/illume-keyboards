@@ -1,0 +1,157 @@
+##KBDCONF-1.0
+kbd 130 30
+fuzz 20
+
+# keyboard type
+type ALPHA
+# an icon for the keyboard so you know which one you have
+icon X8-russian-ru.png
+
+# if the key out is in quotes - "q" for example, then this key is used for
+# typing words and can be part of a dictionary match, any other key when
+# pressed will end the dictionary match (u can disable dictionary matching in
+# a layout by not having any outputs in quotes)
+key  0  0  10  10
+  normal   й Cyrillic_shorti
+  shift    Й Cyrillic_SHORTI
+  capslock ё Cyrillic_io
+key 10  0  10  10
+  normal   ц Cyrillic_tse
+  shift    Ц Cyrillic_TSE
+  capslock 1 1
+key 20  0  10  10
+  normal   у Cyrillic_u
+  shift    У Cyrillic_U
+  capslock 2 2
+key 30  0  10  10
+  normal   к Cyrillic_ka
+  shift    К Cyrillic_KA
+  capslock 3 3
+key 40  0  10  10
+  normal   е Cyrillic_ie
+  shift    Е Cyrillic_IE
+  capslock 4 4
+key 50  0  10  10
+  normal   н Cyrillic_en
+  shift    Н Cyrillic_EN
+  capslock 5 5
+key 60  0  10  10
+  normal   г Cyrillic_ghe
+  shift    Г Cyrillic_GHE
+  capslock 6 6
+key 70  0  10  10
+  normal   ш Cyrillic_sha
+  shift    Ш Cyrillic_SHA
+  capslock 7 7
+key 80  0  10  10
+  normal   щ Cyrillic_shcha
+  shift    Щ Cyrillic_SHCHA
+  capslock 8 8
+key 90  0  10  10
+  normal   з Cyrillic_ze
+  shift    З Cyrillic_ZE
+  capslock 9 9
+key 100  0 10  10
+  normal   х Cyrillic_ha
+  shift    Х Cyrillic_HA
+  capslock 0 0
+key 110  0 10  10
+  normal   ъ Cyrillic_hardsign
+  shift    Ъ Cyrillic_HARDSIGN
+  capslock \ backslash
+key 120  0 10  10
+  normal   backspace.png BackSpace
+
+key  0 10  10  10
+  normal   ф Cyrillic_ef
+  shift    Ф Cyrillic_EF
+  capslock Ё Cyrillic_IO
+key 10 10  10  10
+  normal   ы Cyrillic_yeru
+  shift    Ы Cyrillic_YERU
+  capslock ! exclam
+key 20 10  10  10
+  normal   в Cyrillic_ve
+  shift    В Cyrillic_VE
+  capslock " quotedbl
+key 30 10  10  10
+  normal   а Cyrillic_a
+  shift    А Cyrillic_A
+  capslock № numerosign
+key 40 10  10  10
+  normal   п Cyrillic_pe
+  shift    П Cyrillic_PE
+  capslock ; semicolon
+key 50 10  10  10
+  normal   р Cyrillic_er
+  shift    Р Cyrillic_ER
+  capslock % percent
+key 60 10  10  10
+  normal   о Cyrillic_o
+  shift    О Cyrillic_O
+  capslock : colon
+key 70 10  10  10
+  normal   л Cyrillic_el
+  shift    Л Cyrillic_EL
+  capslock ? question
+key 80 10  10  10
+  normal   д Cyrillic_de
+  shift    Д Cyrillic_DE
+  capslock * asterisk
+key 90 10  10  10
+  normal   ж Cyrillic_zhe
+  shift    Ж Cyrillic_ZHE
+  capslock ( parenleft
+key 100 10 10  10
+  normal   э Cyrillic_e
+  shift    Э Cyrillic_E
+  capslock ) parenright
+key 110 10 10  10
+  normal   shift.png
+  is_shift
+key 120 10 10  10
+  normal   cs caps
+  capslock CS CAPS
+  is_capslock
+
+key  0 20  20  10
+  normal   space space
+key 20 20  10  10
+  normal   я Cyrillic_ya
+  shift    Я Cyrillic_YA
+  capslock < less
+key 30 20  10  10
+  normal   ч Cyrillic_che
+  shift    Ч Cyrillic_CHE
+  capslock > greater
+key 40 20  10  10
+  normal   с Cyrillic_es
+  shift    С Cyrillic_ES
+  capslock - minus
+key 50 20  10  10
+  normal   м Cyrillic_em
+  shift    М Cyrillic_EM
+  capslock _ underscore
+key 60 20  10  10
+  normal   и Cyrillic_i
+  shift    И Cyrillic_I
+  capslock = equal
+key 70 20  10  10
+  normal   т Cyrillic_te
+  shift    Т Cyrillic_TE
+  capslock + plus
+key 80 20  10  10
+  normal   ь Cyrillic_softsign
+  shift    Ь Cyrillic_SOFTSIGN
+  capslock / slash
+key 90 20  10  10
+  normal   б Cyrillic_be
+  shift    Б Cyrillic_BE
+  capslock . period
+key 100 20  10  10
+  normal   ю Cyrillic_yu
+  shift    Ю Cyrillic_YU
+  capslock , comma
+key 110 20  20  10
+  normal   enter.png Return
+

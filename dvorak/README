@@ -1,0 +1,7 @@
+dvorak layout for illume by Gabor Adam TOTH <tg at x-net dot hu>
+
+INSTALL
+put these in /usr/lib/enlightenment/modules/illume/keyboards
+
+TODO
+ - change the icon
