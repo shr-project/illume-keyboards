@@ -5,7 +5,7 @@ fuzz 20
 # keyboard type
 type ALPHA
 # an icon for the keyboard so you know which one you have
-icon alpha.png
+icon German.png
 
 # if the key out is in quotes - "q" for example, then this key is used for
 # typing words and can be part of a dictionary match, any other key when
