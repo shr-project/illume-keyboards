@@ -15,96 +15,96 @@ direction rtl
 # a layout by not having any outputs in quotes)
 key  5  5  10  10
   normal   . period
-  shift    Q Q
+  shift    1 1
 key 15  5  10  10
   normal   , comma
-  shift    W W
+  shift    2 2
 key 25  5  10  10
   normal   ק hebrew_kuf
-  shift    E E
+  shift    3 3
 key 35  5  10  10
   normal   ר hebrew_resh
-  shift    R R
+  shift    4 4
 key 45  5  10  10
   normal   א hebrew_aleph
-  shift    T T
+  shift    5 5
 key 55  5  10  10
   normal   ט hebrew_tet
-  shift    Y Y
+  shift    6 6
 key 65  5  10  10
   normal   ו hebrew_waw
-  shift    U U
+  shift    7 7
 key 75  5  10  10
   normal   ן hebrew_finalnun
-  shift    I I
+  shift    8 8
 key 85  5  10  10
   normal   ם hebrew_finalmem
-  shift    O O
+  shift    9 9
 key 95  5  10  10
   normal   פ hebrew_pe
-  shift    P P
+  shift    0 0
 
 key 10 15  10  10
   normal   ש hebrew_shin
-  shift    A A
+  shift    " quotedbl
 key 20 15  10  10
   normal   ד hebrew_dalet
-  shift    S S
+  shift    ' apostrophe
 key 30 15  10  10
   normal   ג hebrew_gimel
-  shift    D D
+  shift    : colon 
 key 40 15  10  10
   normal   כ hebrew_kaph
-  shift    F F
+  shift    ; semicolon 
 key 50 15  10  10
   normal   ע hebrew_ayin
-  shift    G G
+  shift    - minus
 key 60 15  10  10
   normal   י hebrew_yod
-  shift    H H
+  shift    _ underscore
 key 70 15  10  10
   normal   ח hebrew_chet
-  shift    J J
+  shift    / slash
 key 80 15  10  10
   normal   ל hebrew_lamed
-  shift    K K
+  shift    \ backslash
 key 90 15  10  10
   normal   ך hebrew_finalkaph
-  shift    L L
+  shift    ( parenleft
 key 100 15  10  10
   normal   ף hebrew_finalpe
-  shift    L L
+  shift    ) parenright
 
 key 5 25 10  10
   normal   shift.png
   is_shift
 key 15 25  10  10
   normal   ז hebrew_zain
-  shift    Z Z
+  shift    % percent
 key 25 25  10  10
   normal   ס hebrew_samech
-  shift    X X
+  shift    * asterisk
 key 35 25  10  10
   normal   ב hebrew_bet
-  shift    C C
+  shift    + plus
 key 45 25  10  10
   normal   ה hebrew_he
-  shift    V V
+  shift    # numbersign
 key 55 25  10  10
   normal   נ hebrew_nun
-  shift    B B
+  shift    < less
 key 65 25  10  10
   normal   מ hebrew_mem
-  shift    N N
+  shift    > greater
 key 75 25  10  10
   normal   צ hebrew_zade
-  shift    M M
+  shift    = equal
 key 85 25  10  10
   normal   ת hebrew_taw
-  shift    M M
+  shift    ^ asciicircum
 key 95 25  10  10
   normal   ץ hebrew_finalzade
-  shift    M M
+  shift    | bar
 
 
 key 115 5 10  10
