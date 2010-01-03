@@ -6,6 +6,9 @@ type ALPHA
 # an icon for the keyboard so you know which one you have
 icon Arabic.png
 
+# the natural flow is rtl
+direction rtl
+
 # if the key out is in quotes - q for example, then this key is used for
 # typing words and can be part of a dictionary match, any other key when
 # pressed will end the dictionary match (u can disable dictionary matching in
