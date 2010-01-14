@@ -4,58 +4,58 @@ kbd 450 150
 # keyboard type
 type TERMINAL
 # an icon for the keyboard so you know which one you have
-icon azerty.png
+icon Azerty.png
 
 key   0   0  30  30
   normal   Esc Escape
 key  30   0  30  30
-  normal   1 1
-  shift    & ampersand
-  capslock 1 1
+  normal   & ampersand
+  shift    1 1
+  capslock & ampersand
 key  60   0  30  30
-  normal   2 2
-  shift    é eacute
-  capslock 2 2
+  shift    2 2
+  normal   é eacute
+  capslock É Eacute
 key  90   0  30  30
-  normal   3 3
-  shift    " quotedbl
-  capslock 3 3
+  shift    3 3
+  normal   " quotedbl
+  capslock " quotedbl
 key 120   0  30  30
-  normal   4 4
-  shift    ' apostrophe
-  capslock 4 4
+  shift    4 4
+  normal   ' apostrophe
+  capslock ' apostrophe
 key 150   0  30  30
-  normal   5 5
-  shift    ( parenleft
-  capslock 5 5
+  shift    5 5
+  normal   ( parenleft
+  capslock ( parenleft
 key 180   0  30  30
-  normal   6 6
-  shift    - minus
-  capslock 6 6
+  shift    6 6
+  normal   - minus
+  capslock - minus
 key 210   0  30  30
-  normal   7 7
-  shift    è egrave
-  capslock 7 7
+  shift    7 7
+  normal   è egrave
+  capslock È Egrave
 key 240   0  30  30
-  normal   8 8
-  shift    _ underscore
-  capslock 8 8
+  shift    8 8
+  normal   _ underscore
+  capslock _ underscore
 key 270   0  30  30
-  normal   9 9
-  shift    ç ccedilla
-  capslock 9 9
+  shift    9 9
+  normal   ç ccedilla
+  capslock Ç Ccedilla
 key 300   0  30  30
-  normal   0 0
-  shift    à agrave
-  capslock 0 0
+  shift    0 0
+  normal   à agrave
+  capslock À Agrave
 key 330   0  30  30
-  normal   | bar
-  shift    ) parenright
-  capslock ° degree
+  shift    | bar
+  normal   ) parenright
+  capslock ) parenright
 key 360   0  30  30
-  normal   + plus
-  shift    = equal
-  capslock + plus
+  shift    + plus
+  normal   = equal
+  capslock = equal
 #key 390   0  60  30
 #  normal   backspace.png BackSpace
 key 390  0  30 30
@@ -107,17 +107,8 @@ key 315  30  30  30
   shift    P P
   capslock P P
 key 345  30  30  30
-  normal   [ bracketleft
-  shift    { braceleft
-  capslock [ bracketleft
-#key 375  30  30  30
-#  normal   ] bracketright
-#  shift    } braceright
-#  capslock ] bracketright
-#key 405  30  45  30
-#  normal   \ backslash
-#  shift    | bar
-#  capslock \ backslash
+   normal  ^ dead_circumflex
+   shift   ¨ dead_diaeresis
 key  375  30  75  30
    normal  backspace.png BackSpace
 
@@ -166,9 +157,8 @@ key 330  60  30  30
   shift    M M
   capslock M M
 key 360  60  30  30
-  normal   ] bracketright
-  shift    } braceright
-  capslock ] bracketright
+  normal   % percent
+  shift    # numbersign
 key 390  60  60  30
   normal   enter.png Return
 
@@ -231,9 +221,13 @@ key  80 120 160  30
 key  240 120 30 30
   normal  @ at
 key  270 120 30 30
-  normal  # numbersign
+  normal   [ bracketleft
+  shift    { braceleft
+  capslock [ bracketleft
 key 300 120  30  30
-  normal   % percent
+  normal   ] bracketright
+  shift    } braceright
+  capslock ] bracketright
 key 330 120  30  30
   normal  left.png Left
 key 360 120  30  30
