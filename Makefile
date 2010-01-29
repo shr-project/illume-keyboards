@@ -2,6 +2,7 @@
 INSTBASE = /usr/lib/enlightenment/modules/illume/keyboards
 
 FILES-arabic = Arabic.kbd Arabic.png
+FILES-persian = Persian.kbd Persian.png
 FILES-browse = Browse.kbd end-browse.png pagedown-browse.png browse.png home-browse.png pageup-browse.png space-browse.png
 FILES-danish = Danish.kbd danish.png
 FILES-default-alt = Default-alt.kbd
@@ -16,7 +17,7 @@ FILES-russian-terminal = Terminal_Russian.kbd Terminal-russian-ru.png
 
 all:
 
-install: install-arabic install-browse install-danish install-default-alt install-dutch install-dvorak install-french install-german install-hebrew install-numeric-alt install-russian install-russian-terminal 
+install: install-arabic install-browse install-danish install-default-alt install-dutch install-dvorak install-french install-german install-hebrew install-numeric-alt install-russian install-russian-terminal install-persian
 
 install-%:
 	install -d ${DESTDIR}${INSTBASE}/$(@:install-%=%)

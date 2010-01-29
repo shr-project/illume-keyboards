@@ -1,0 +1,128 @@
+##KBDCONF-1.0
+kbd 130 45
+
+# keyboard type
+type ALPHA
+# an icon for the keyboard so you know which one you have
+icon Persian.png
+
+#rtl text flow
+direction rtl
+
+# if the key out is in quotes - q for example, then this key is used for
+# typing words and can be part of a dictionary match, any other key when
+# pressed will end the dictionary match (u can disable dictionary matching in
+# a layout by not having any outputs in quotes)
+key  5  5  10  10
+  normal   ض Persian_dad
+  shift    ْ ْ
+key 15  5  10  10
+  normal   ص Persian_sad
+  shift    ٌ ٌ
+key 25  5  10  10
+  normal   ث Persian_theh
+  shift    ٍ ٍ
+key 35  5  10  10
+  normal   ق Persian_qaf
+  shift    ً ً
+key 45  5  10  10
+  normal   ف Persian_feh
+  shift    ُ ُ
+key 55  5  10  10
+  normal   غ Persian_ghain
+  shift    ِ ِ
+key 65  5  10  10
+  normal   ع Persian_ain
+  shift    َ َ
+key 75  5  10  10
+  normal   ه Persian_ha
+  shift    ّ ّ
+key 85  5  10  10
+  normal   خ Persian_khah
+  shift    ( (
+key 95  5  10  10
+  normal   ح Persian_hah
+  shift    ) )
+key 105  5  10  10
+  normal   ج Persian_jeem
+  shift    < <
+key 115  5  10  10
+  normal   چ Persian_dal
+  shift    > >
+
+key 5 15  10  10
+  normal   ش Persian_sheen
+  shift    ۱ ۱
+key 15 15  10  10
+  normal   س Persian_seen
+  shift    ۲ ۲
+key 25 15  10  10
+  normal   ى Persian_yeh
+  shift    ۳ ۳
+key 35 15  10  10
+  normal   ب Persian_beh
+  shift    ۴ ۴
+key 45 15  10  10
+  normal   ل Persian_lam
+  shift    ۵ ۵ 
+key 55 15  10  10
+  normal   ا Persian_alef
+  shift    ۶ ۶
+key 65 15  10  10
+  normal   ت Persian_teh
+  shift    ۷ ۷
+key 75 15  10  10
+  normal   ن Persian_noon
+  shift    ۸ ۸
+key 85 15  10  10
+  normal   م Persian_meem
+  shift    ۹ ۹ 
+key 95 15  10  10
+  normal   ك Persian_kaf
+  shift    ۰ ۰ 
+key 105 15  10  10
+  normal   گ Persian_tah
+  shift    = =
+
+key 5 25 10  10
+  normal   shift.png
+  is_shift
+key 15 25  10  10
+  normal   ظ Persian_hamzaonyeh
+  shift    + +
+key 25 25  10  10
+  normal   ط Persian_hamza
+  shift    آ آ
+key 35 25  10  10
+  normal   ز Persian_hamzaonwaw
+  shift    ـ ـ
+key 45 25  10  10
+  normal   ر Persian_ra
+  shift    - -
+key 55 25  10  10
+  normal   ذ Persian_thal
+  shift    : :
+key 65 25  10  10
+  normal   د Persian_alefmaksura
+  shift    ؛ ؛
+key 75 25  10  10
+  normal   پ Persian_tehmarbuta
+  shift    ٬ ٬
+key 85 25  10  10
+  normal   و Persian_waw
+  shift    ، ،
+key 95 25  10  10
+  normal   . Persian_zain
+  shift    | |
+key 105 25  10  10
+  normal   / Persian_zah
+  shift    ؟ ؟
+key 115 25  10  10
+  normal   enter.png Return
+
+key 45 35  40  10
+  normal   فاصله space
+  
+key 115 15 10  10
+  normal   backspace.png BackSpace
+  
