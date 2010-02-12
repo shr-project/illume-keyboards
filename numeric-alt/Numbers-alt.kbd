@@ -38,9 +38,9 @@ key 200  50  50  50
 key 250  50  50  50
   normal   6 6
 key 300  50  50  50
-  normal   home.png Home
+  normal   hm Home
 key 350  50  50  50
-  normal   end.png End
+  normal   end End
 key 400  50  50  50
   normal   del Delete
 
