@@ -11,7 +11,7 @@ FILES-dvorak = Dvorak.kbd dvorak.png
 FILES-french = Azerty.kbd Azerty.png
 FILES-german = German.kbd German.png
 FILES-hebrew = Hebrew.kbd Alpha-hebrew-il.png
-FILES-numeric-alt = end-alt.png home-alt.png Numbers-alt.kbd numeric-alt.png pagedown-alt.png pageup-alt.png
+FILES-numeric-alt = Numbers-alt.kbd numeric-alt.png
 FILES-russian = X8_Russian.kbd X8-russian-ru.png
 FILES-russian-terminal = Terminal_Russian.kbd Terminal-russian-ru.png
 
