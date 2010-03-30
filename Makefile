@@ -20,6 +20,6 @@ all:
 install: install-arabic install-browse install-danish install-default-alt install-dutch install-dvorak install-french install-german install-hebrew install-numeric-alt install-russian install-russian-terminal install-persian
 
 install-%:
-	install -d ${DESTDIR}${INSTBASE}/$(@:install-%=%)
-	(cd $(@:install-%=%); install -m 0644 $(FILES-$(@:install-%=%)) ${DESTDIR}${INSTBASE}/$(@:install-%=%))
+	install -d ${DESTDIR}${INSTBASE}
+	(cd $(@:install-%=%); install -m 0644 $(FILES-$(@:install-%=%)) ${DESTDIR}${INSTBASE})
 
