@@ -8,6 +8,7 @@ FILES-danish = Danish.kbd danish.png
 FILES-default-alt = Default-alt.kbd
 FILES-dutch = capslock-negative.png end.png pagedown.png qwerty-dutch-nl.png Terminal-dutch-nl.kbd capslock.png home.png pageup.png space.png
 FILES-dvorak = Dvorak.kbd dvorak.png
+FILES-finnish = Finnish.kbd Finnish.png
 FILES-french = Azerty.kbd Azerty.png
 FILES-german = German.kbd German.png
 FILES-hebrew = Hebrew.kbd Alpha-hebrew-il.png
@@ -17,7 +18,7 @@ FILES-russian-terminal = Terminal_Russian.kbd Terminal-russian-ru.png
 
 all:
 
-install: install-arabic install-browse install-danish install-default-alt install-dutch install-dvorak install-french install-german install-hebrew install-numeric-alt install-russian install-russian-terminal install-persian
+install: install-arabic install-browse install-danish install-default-alt install-dutch install-dvorak install-finnish install-french install-german install-hebrew install-numeric-alt install-russian install-russian-terminal install-persian
 
 install-%:
 	install -d ${DESTDIR}${INSTBASE}
