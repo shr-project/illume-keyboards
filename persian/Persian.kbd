@@ -47,7 +47,7 @@ key 105  5  10  10
   normal   ج Arabic_jeem
   shift    < greater
 key 115  5  10  10 
-  normal   چ "چ"
+  normal   چ Arabic_tcheh
   shift    > less
 
 key 5 15  10  10
@@ -81,7 +81,7 @@ key 95 15  10  10
   normal   ك Arabic_kaf
   shift    ۰ Farsi_0
 key 105 15  10  10
-  normal   گ "گ"
+  normal   گ Arabic_gaf
   shift    = equal
 
 key 5 25 10  10
@@ -94,7 +94,7 @@ key 25 25  10  10
   normal   ط Arabic_tah
   shift    . period
 key 35 25  10  10
-  normal   ژ "ژ"
+  normal   ژ Arabic_jeh
   shift    ـ Arabic_tatweel
 key 45 25  10  10
   normal   ز Arabic_zain
@@ -107,15 +107,15 @@ key 65 25  10  10
   shift    ؛ Arabic_semicolon
 key 75 25  10  10
   normal   د Arabic_dal
-  shift    ٬ "٬"
+  shift    ٬ U066C
 key 85 25  10  10
-  normal   پ "پ"
+  normal   پ Arabic_peh
   shift    ، Arabic_comma
 key 95 25  10  10
   normal   و Arabic_waw
   shift    * asterisk
 key 105 25  10  10
-  normal   آ "آ"
+  normal   آ Arabic_maddaonalef
   shift    ؟ Arabic_question_mark
 key 115 25  10  10
   normal   enter.png Return
