@@ -14,109 +14,109 @@ direction rtl
 # pressed will end the dictionary match (u can disable dictionary matching in
 # a layout by not having any outputs in quotes)
 key  5  5  10  10
-  normal   ض Persian_dad
-  shift    ْ ْ
+  normal   ض Arabic_dad
+  shift    ْ Arabic_sukun
 key 15  5  10  10
-  normal   ص Persian_sad
-  shift    ٌ ٌ
+  normal   ص Arabic_sad
+  shift    ٌ Arabic_dammatan
 key 25  5  10  10
-  normal   ث Persian_theh
-  shift    ٍ ٍ
+  normal   ث Arabic_theh
+  shift    ٍ Arabic_kasratan
 key 35  5  10  10
-  normal   ق Persian_qaf
-  shift    ً ً
+  normal   ق Arabic_qaf
+  shift    ً Arabic_fathatan
 key 45  5  10  10
-  normal   ف Persian_feh
-  shift    ُ ُ
+  normal   ف Arabic_feh
+  shift    ُ Arabic_damma
 key 55  5  10  10
-  normal   غ Persian_ghain
-  shift    ِ ِ
+  normal   غ Arabic_ghain
+  shift    ِ Arabic_kasra
 key 65  5  10  10
-  normal   ع Persian_ain
-  shift    َ َ
+  normal   ع Arabic_ain
+  shift    َ Arabic_fatha
 key 75  5  10  10
-  normal   ه Persian_ha
-  shift    ّ ّ
+  normal   ه Arabic_ha
+  shift    ّ Arabic_shadda
 key 85  5  10  10
-  normal   خ Persian_khah
-  shift    ( (
+  normal   خ Arabic_khah
+  shift    ( parenright
 key 95  5  10  10
-  normal   ح Persian_hah
-  shift    ) )
+  normal   ح Arabic_hah
+  shift    ) parenleft
 key 105  5  10  10
-  normal   ج Persian_jeem
-  shift    < <
-key 115  5  10  10
-  normal   چ Persian_dal
-  shift    > >
+  normal   ج Arabic_jeem
+  shift    < greater
+key 115  5  10  10 
+  normal   چ "چ"
+  shift    > less
 
 key 5 15  10  10
-  normal   ش Persian_sheen
-  shift    ۱ ۱
+  normal   ش Arabic_sheen
+  shift    ۱ Farsi_1
 key 15 15  10  10
-  normal   س Persian_seen
-  shift    ۲ ۲
+  normal   س Arabic_seen
+  shift    ۲ Farsi_2
 key 25 15  10  10
-  normal   ى Persian_yeh
-  shift    ۳ ۳
+  normal   ي Arabic_yeh
+  shift    ۳ Farsi_3
 key 35 15  10  10
-  normal   ب Persian_beh
-  shift    ۴ ۴
+  normal   ب Arabic_beh
+  shift    ۴ Farsi_4
 key 45 15  10  10
-  normal   ل Persian_lam
-  shift    ۵ ۵ 
+  normal   ل Arabic_lam
+  shift    ۵ Farsi_5
 key 55 15  10  10
-  normal   ا Persian_alef
-  shift    ۶ ۶
+  normal   ا Arabic_alef
+  shift    ۶ Farsi_6
 key 65 15  10  10
-  normal   ت Persian_teh
-  shift    ۷ ۷
+  normal   ت Arabic_teh
+  shift    ۷ Farsi_7
 key 75 15  10  10
-  normal   ن Persian_noon
-  shift    ۸ ۸
+  normal   ن Arabic_noon
+  shift    ۸ Farsi_8
 key 85 15  10  10
-  normal   م Persian_meem
-  shift    ۹ ۹ 
+  normal   م Arabic_meem
+  shift    ۹ Farsi_9
 key 95 15  10  10
-  normal   ك Persian_kaf
-  shift    ۰ ۰ 
+  normal   ك Arabic_kaf
+  shift    ۰ Farsi_0
 key 105 15  10  10
-  normal   گ Persian_tah
-  shift    = =
+  normal   گ "گ"
+  shift    = equal
 
 key 5 25 10  10
   normal   shift.png
   is_shift
 key 15 25  10  10
-  normal   ظ Persian_hamzaonyeh
-  shift    + +
+  normal   ظ Arabic_zah
+  shift    + plus
 key 25 25  10  10
-  normal   ط Persian_hamza
-  shift    آ آ
+  normal   ط Arabic_tah
+  shift    . period
 key 35 25  10  10
-  normal   ژ Persian_hamzaonwaw
-  shift    ـ ـ
+  normal   ژ "ژ"
+  shift    ـ Arabic_tatweel
 key 45 25  10  10
-  normal   ز Persian_ra
-  shift    - -
+  normal   ز Arabic_zain
+  shift    - minus
 key 55 25  10  10
-  normal   ر Persian_thal
-  shift    : :
+  normal   ر Arabic_ra
+  shift    : colon
 key 65 25  10  10
-  normal   ذ Persian_alefmaksura
-  shift    ؛ ؛
+  normal   ذ Arabic_thal
+  shift    ؛ Arabic_semicolon
 key 75 25  10  10
-  normal   د Persian_tehmarbuta
-  shift    ٬ ٬
+  normal   د Arabic_dal
+  shift    ٬ "٬"
 key 85 25  10  10
-  normal   پ Persian_waw
-  shift    ، ،
+  normal   پ "پ"
+  shift    ، Arabic_comma
 key 95 25  10  10
-  normal   و Persian_zain
-  shift    | |
+  normal   و Arabic_waw
+  shift    * asterisk
 key 105 25  10  10
-  normal   . Persian_zah
-  shift    ؟ ؟
+  normal   آ "آ"
+  shift    ؟ Arabic_question_mark
 key 115 25  10  10
   normal   enter.png Return
 
@@ -125,4 +125,3 @@ key 45 35  40  10
   
 key 115 15 10  10
   normal   backspace.png BackSpace
-  
