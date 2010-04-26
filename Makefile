@@ -15,10 +15,11 @@ FILES-hebrew = Hebrew.kbd Alpha-hebrew-il.png
 FILES-numeric-alt = Numbers-alt.kbd numeric-alt.png
 FILES-russian = X8_Russian.kbd X8-russian-ru.png
 FILES-russian-terminal = Terminal_Russian.kbd Terminal-russian-ru.png
+FILES-alpha = Alpha.kbd
 
 all:
 
-install: install-arabic install-browse install-danish install-default-alt install-dutch install-dvorak install-finnish install-french install-german install-hebrew install-numeric-alt install-russian install-russian-terminal install-persian
+install: install-arabic install-browse install-danish install-default-alt install-dutch install-dvorak install-finnish install-french install-german install-hebrew install-numeric-alt install-russian install-russian-terminal install-persian install-alpha
 
 install-%:
 	install -d ${DESTDIR}${INSTBASE}
